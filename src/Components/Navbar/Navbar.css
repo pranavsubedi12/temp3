@@ -1,0 +1,66 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 15px 7%;
+
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+    .form{
+        width: 170px;
+        height: 40px;
+        background-color: red;
+        color: #fff;
+        border-color: black;
+        font-size: 22px;
+        border-radius: 25px;
+        margin-top: 0px;
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        border-radius: 20px;
+       
+            
+       }
+     
+
+.search-box input{
+    padding: 6px;
+    background: white;
+    border-radius: 50px;
+    outline: 0;
+    color: blueviolet;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.search-box input ::placeholder{
+    color: black
+
+}
+
+.search-box img{
+    width: 10px;
+    
+}
